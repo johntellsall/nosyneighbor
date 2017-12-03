@@ -1,4 +1,4 @@
 all:
 
-chat:
-	gcc -o chat chat.c
+chat: Makefile
+	gcc -g -o chat chat.c
